@@ -1,8 +1,7 @@
-from dsql.api.models import Component, Snowflake
+from dsql.api.models import Component
 
 
 class Database(Component):
-    def __init__(self, id: Snowflake) -> None:
-        super().__init__(id)
-        self.id = id
-        # TODO: Fetch and set database (server) name
+	def __init__(self, id: str) -> None:
+		super().__init__(id)
+		# TODO: Fetch and set database (server) name
