@@ -1,4 +1,4 @@
-from discordsql.api.models import Component, Snowflake
+from dsql.api.models import Component, Snowflake
 
 
 class Database(Component):
