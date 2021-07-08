@@ -7,5 +7,4 @@ class Component:
     """
     def __init__(self, id: Snowflake) -> None:
         self.id = id
-        # TODO: Set created date (from snowflake)
-        
+        self.created_at = id.timestamp
